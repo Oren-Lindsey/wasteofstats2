@@ -1,0 +1,1 @@
+<h3 class="grid place-items-center text-lg text-gray-700"><slot /></h3>
