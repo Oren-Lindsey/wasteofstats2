@@ -414,6 +414,7 @@
 <Line data={countgraphdata} options={countgraphoptions} />
 </div>
 </div>
+<Title link="#alltime">Stats for all posts</Title>
 <div class="!w-[80vw] !max-w-[80vw]">
 <div class="!max-h-[50vh] h-[50vh] w-full">
 <Line data={timegraphdata} options={timegraphoptions} />
