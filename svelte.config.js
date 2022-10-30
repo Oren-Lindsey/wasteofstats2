@@ -8,7 +8,12 @@ const config = {
 		}),
 	  ],
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		vite: {
+            ssr:{
+                noExternal: ['chart.js']
+            }
+        }
 	}
 };
 
